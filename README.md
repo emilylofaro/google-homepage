@@ -1,1 +1,2 @@
-I'm recreating the google homepage to better my understanding of html and CSS. 
+I have no idea what I'm doing
+I'm basically remaking the google home page. We ball.

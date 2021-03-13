@@ -24,7 +24,7 @@ main {
 
 a {
 		text-decoration: none;
-		color: gray;
+		color: #787878;
 }
 
 .center {
@@ -38,6 +38,7 @@ footer {
      height: 40px;
      bottom: 0;
      position: fixed; 
+     left: 0;
 }
 
 button {
@@ -45,14 +46,18 @@ button {
 	 width: 120px;
 	 height: 35px;
 	 margin: 30px 5px;
-     color: #6F6F6F;
+     color: #636363;
      border-radius: 2px;
+     background: #F7F7F7;
+}
+button:hover {
+	box-shadow: 0 1px 5px rgba(0,0,0,.4);
 }
 
 input {
 	border: 1px solid #E2E2E2;
 	border-radius: 30px;
-	width: 35%;
+	width: 42%;
 	outline: 0;
 	height: 45px;
 	position: relative;
@@ -63,7 +68,7 @@ input {
     background-position: 7px;
     background-size: 14px;
     background-repeat: no-repeat;
-
+    text-indent: 28px;
 }
 
 #logo {
@@ -104,4 +109,12 @@ li {
 	right: 30px;
 	position: absolute;
 	bottom: .8rem;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.black {
+	color:black;
 }
