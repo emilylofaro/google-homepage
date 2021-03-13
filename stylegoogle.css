@@ -17,28 +17,17 @@ main {
 	overflow: hidden;
 }
 
-.top {
-	text-align: right;
-	font-size: .8rem;
-} 
-
 a {
 		text-decoration: none;
 		color: #787878;
 }
 
-.center {
-	text-align: center;
+a.black {
+	color:black;
 }
 
-footer {
-     background-color: #E8E8E8;
-     border-top: solid 1px #8888883f;
-     width: 100%;
-     height: 40px;
-     bottom: 0;
-     position: fixed; 
-     left: 0;
+a:hover {
+	text-decoration: underline;
 }
 
 button {
@@ -50,6 +39,7 @@ button {
      border-radius: 2px;
      background: #F7F7F7;
 }
+
 button:hover {
 	box-shadow: 0 1px 5px rgba(0,0,0,.4);
 }
@@ -71,23 +61,8 @@ input {
     text-indent: 28px;
 }
 
-#logo {
-	margin-top: 100px;
-}
-
 input:hover {
 	box-shadow: 0 1px 7px rgba(0,0,0,.2);
-}
-
-.top #login {
-	background-color: #338BE1;
-	color: white;
-	font-weight: bold; 
-	width: 70px;
-	height: 30px;
-	border-radius: 3px;
-	margin-top: 8px;
-	margin-right: 20px;
 }
 
 ul {
@@ -101,6 +76,40 @@ li {
 	padding-left: 10px;
 }
 
+footer {
+     background-color: #E8E8E8;
+     border-top: solid 1px #8888883f;
+     width: 100%;
+     height: 40px;
+     bottom: 0;
+     position: fixed; 
+     left: 0;
+}
+
+.top {
+	text-align: right;
+	font-size: .8rem;
+} 
+
+.center {
+	text-align: center;
+}
+
+#logo {
+	margin-top: 100px;
+}
+
+.top #login {
+	background-color: #338BE1;
+	color: white;
+	font-weight: bold; 
+	width: 70px;
+	height: 30px;
+	border-radius: 3px;
+	margin-top: 8px;
+	margin-right: 20px;
+}
+
 .left-section .right-section {
 	display: flex;
 }
@@ -109,12 +118,4 @@ li {
 	right: 30px;
 	position: absolute;
 	bottom: .8rem;
-}
-
-a:hover {
-	text-decoration: underline;
-}
-
-a.black {
-	color:black;
 }
